@@ -146,6 +146,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CardCarrito.resx">
+      <DependentUpon>CardCarrito.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormCarrito.resx">
       <DependentUpon>FormCarrito.cs</DependentUpon>
     </EmbeddedResource>

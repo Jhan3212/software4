@@ -58,9 +58,8 @@ namespace GoEats
 
             foreach (CardCarrito item in flowCarrito.Controls)
             {
-                decimal precio = decimal.Parse(item.lblPrecio.Text.Replace("$", "").Trim());
+                decimal precio = decimal.Parse(item.lblPrecio.Text);
                 int cantidad = int.Parse(item.lblCantidad.Text.Replace("Cantidad:", "").Trim());
-
                 total += precio * cantidad;
             }
 
