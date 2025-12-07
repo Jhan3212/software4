@@ -147,37 +147,36 @@ namespace GoEats
 
             item.lblNombrePlato.Text = nombre;
             item.lblPrecio.Text = precio.ToString("0.00");
-            item.lblCantidad.Text = "Cantidad: 1";
+            item.lblCantidad.Text = "1";
 
             string rutaCompleta = BuscarImagenConExtension(imagenRuta);
-
             if (rutaCompleta != null)
-            {
                 item.picPlato.Image = Image.FromFile(rutaCompleta);
-            }
-            else
-            {
-                Console.WriteLine("⚠ Imagen no encontrada en carrito: " + imagenRuta);
-            }
 
-            // botón eliminar del carrito
+            // EVENTO: eliminar producto
             item.btnEliminar.Click += (s, e) =>
             {
                 AppData.Carrito.flowCarrito.Controls.Remove(item);
                 AppData.Carrito.ActualizarTotal();
             };
 
-            // agregar al carrito
+            // EVENTO: cambiar cantidad
+            item.CantidadCambiada += (s, e) =>
+            {
+                AppData.Carrito.ActualizarTotal();
+            };
+
+
             AppData.Carrito.flowCarrito.Controls.Add(item);
             AppData.Carrito.ActualizarTotal();
 
             MessageBox.Show("Agregado al carrito");
         }
 
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            FormCarrito carrito = new FormCarrito();
-            carrito.ShowDialog();
+            AppData.Carrito.ShowDialog();
         }
     }
 }

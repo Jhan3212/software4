@@ -136,3 +136,4 @@ C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\obj\Debug\GoEats.c
 C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\obj\Debug\GoEats.csproj.Up2Date
 C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\obj\Debug\GoEats.exe
 C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\obj\Debug\GoEats.pdb
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\obj\Debug\GoEats.CardCarrito.resources
