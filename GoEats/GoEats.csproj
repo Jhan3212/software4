@@ -185,8 +185,23 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="imagenes\menus\" />
     <Folder Include="imagenes\restaurantes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="imagenes\menus\alitas_bbq.jpg" />
+    <Content Include="imagenes\menus\alitas_picantes.jpg" />
+    <Content Include="imagenes\menus\arepa_burger.jpeg" />
+    <Content Include="imagenes\menus\arepa_de_combinacion.jpg" />
+    <Content Include="imagenes\menus\costillitas_bbq.png" />
+    <Content Include="imagenes\menus\costillitas_picantes.jpg" />
+    <Content Include="imagenes\menus\hamburguesa_especial.png" />
+    <Content Include="imagenes\menus\hamburguesa_sencilla.jpeg" />
+    <Content Include="imagenes\menus\hot_dogs.jpeg" />
+    <Content Include="imagenes\menus\patacon_con_puerco_y_pollo.jpg" />
+    <Content Include="imagenes\menus\patacon_relleno.jpeg" />
+    <Content Include="imagenes\menus\pollo_crispy.jpeg" />
+    <Content Include="imagenes\menus\salchipapa_grande.png" />
+    <Content Include="imagenes\menus\salchipapa_pequena.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
