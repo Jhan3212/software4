@@ -10,37 +10,6 @@ namespace GoEats
     {
         private int idRestaurante;
 
-        // 🔎 FUNCIÓN PARA DETECTAR EXTENSIÓN AUTOMÁTICAMENTE
-        private string BuscarImagenConExtension(string rutaRelativa)
-        {
-            try
-            {
-                string baseDir = Application.StartupPath;
-                string rutaBase = Path.Combine(baseDir, rutaRelativa.Replace("/", "\\"));
-
-                string dir = Path.GetDirectoryName(rutaBase);
-                string file = Path.GetFileName(rutaBase);
-
-                if (!Directory.Exists(dir))
-                    return null;
-
-                string[] extensiones = { ".jpg", ".jpeg", ".png", ".bmp" };
-
-                foreach (var ext in extensiones)
-                {
-                    string ruta = Path.Combine(dir, file + ext);
-                    if (File.Exists(ruta))
-                        return ruta;
-                }
-
-                return null;
-            }
-            catch
-            {
-                return null;
-            }
-        }
-
         public FormMenu(int idRestaurante)
         {
             InitializeComponent();
@@ -53,13 +22,64 @@ namespace GoEats
             CargarPlatos();
         }
 
+        // ✅ BUSCA LA IMAGEN USANDO SOLO EL NOMBRE DEL ARCHIVO
+        private string BuscarImagen(string nombreArchivo)
+        {
+            try
+            {
+                string ruta = Path.Combine(
+                    Application.StartupPath,
+                    "imagenes",
+                    "menus",
+                    nombreArchivo
+                );
+
+                if (File.Exists(ruta))
+                    return ruta;
+
+                MessageBox.Show("❌ No se encontró la imagen:\n" + ruta);
+                return null;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("⚠ Error al buscar imagen:\n" + ex.Message);
+                return null;
+            }
+        }
+
+        // ✅ CARGA LA IMAGEN SIN BLOQUEAR ARCHIVOS (NUNCA SE ROMPE)
+        private Image CargarImagenSegura(string ruta)
+        {
+            try
+            {
+                if (!File.Exists(ruta))
+                {
+                    MessageBox.Show("❌ No existe la imagen:\n" + ruta);
+                    return null;
+                }
+
+                byte[] bytes = File.ReadAllBytes(ruta);
+                using (MemoryStream ms = new MemoryStream(bytes))
+                {
+                    return Image.FromStream(ms);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("💥 Error cargando imagen:\n" + ex.Message);
+                return null;
+            }
+        }
+
+        // ✅ CARGA INFO DEL RESTAURANTE
         private void CargarInfoRestaurante()
         {
             ConexionBD bd = new ConexionBD();
             using (MySqlConnection con = bd.ObtenerConexion())
             {
                 con.Open();
-                string sql = "SELECT Nombre, Categoria, Imagen FROM Restaurantes WHERE Id=@id";
+
+                string sql = "SELECT Nombre, Categoria, Imagen FROM restaurantes WHERE Id=@id";
                 MySqlCommand cmd = new MySqlCommand(sql, con);
                 cmd.Parameters.AddWithValue("@id", idRestaurante);
 
@@ -70,22 +90,24 @@ namespace GoEats
                         lblNombreRestaurante.Text = dr["Nombre"].ToString();
                         lblCategoriaRestaurante.Text = dr["Categoria"].ToString();
 
-                        string ruta = dr["Imagen"].ToString();
-                        string rutaCompleta = BuscarImagenConExtension(ruta);
+                        string nombreImagen = dr["Imagen"].ToString();
 
-                        if (rutaCompleta != null)
-                        {
-                            picRestaurante.Image = Image.FromFile(rutaCompleta);
-                        }
-                        else
-                        {
-                            Console.WriteLine("⚠ Imagen no encontrada: " + ruta);
-                        }
+                        string rutaCompleta = Path.Combine(
+                            Application.StartupPath,
+                            "imagenes",
+                            "restaurantes",
+                            nombreImagen
+                        );
+
+                        var img = CargarImagenSegura(rutaCompleta);
+                        if (img != null)
+                            picRestaurante.Image = img;
                     }
                 }
             }
         }
 
+        // ✅ CARGA LOS PLATOS DEL MENÚ
         private void CargarPlatos()
         {
             flowMenu.Controls.Clear();
@@ -94,7 +116,8 @@ namespace GoEats
             using (MySqlConnection con = bd.ObtenerConexion())
             {
                 con.Open();
-                string sql = "SELECT Nombre, Precio, Imagen FROM Menus WHERE IdRestaurante=@idRestaurante";
+
+                string sql = "SELECT Nombre, Precio, Imagen FROM menus WHERE IdRestaurante=@idRestaurante";
                 MySqlCommand cmd = new MySqlCommand(sql, con);
                 cmd.Parameters.AddWithValue("@idRestaurante", idRestaurante);
 
@@ -106,28 +129,24 @@ namespace GoEats
 
                         string nombre = dr["Nombre"].ToString();
                         decimal precio = Convert.ToDecimal(dr["Precio"]);
-                        string ruta = dr["Imagen"].ToString();
-                        string rutaCompleta = BuscarImagenConExtension(ruta);
+                        string nombreImagen = dr["Imagen"].ToString();
 
                         card.lblNombrePlato.Text = nombre;
                         card.lblPrecio.Text = "$" + precio.ToString("0.00");
 
-                        Console.WriteLine("Ruta buscada: " + ruta);
-                        Console.WriteLine("Ruta encontrada: " + rutaCompleta);
+                        string rutaCompleta = BuscarImagen(nombreImagen);
+                        var img = CargarImagenSegura(rutaCompleta);
 
-                        if (rutaCompleta != null)
+                        if (img != null)
                         {
-                            card.picPlato.Image = Image.FromFile(rutaCompleta);
-                        }
-                        else
-                        {
-                            Console.WriteLine("⚠ Imagen no encontrada: " + ruta);
+                            card.picPlato.SizeMode = PictureBoxSizeMode.Zoom;
+                            card.picPlato.Image = img;
                         }
 
-                        // evento del botón agregar
+                        // ✅ BOTÓN AGREGAR AL CARRITO
                         card.btnAgregar.Click += (s, e) =>
                         {
-                            AgregarAlCarrito(nombre, precio, ruta);
+                            AgregarAlCarrito(nombre, precio, nombreImagen);
                         };
 
                         flowMenu.Controls.Add(card);
@@ -136,12 +155,8 @@ namespace GoEats
             }
         }
 
-        private void btnAtras_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void AgregarAlCarrito(string nombre, decimal precio, string imagenRuta)
+        // ✅ AGREGA AL CARRITO
+        private void AgregarAlCarrito(string nombre, decimal precio, string nombreImagen)
         {
             CardCarrito item = new CardCarrito();
 
@@ -149,29 +164,31 @@ namespace GoEats
             item.lblPrecio.Text = precio.ToString("0.00");
             item.lblCantidad.Text = "Cantidad: 1";
 
-            string rutaCompleta = BuscarImagenConExtension(imagenRuta);
+            string rutaCompleta = BuscarImagen(nombreImagen);
+            var img = CargarImagenSegura(rutaCompleta);
 
-            if (rutaCompleta != null)
+            if (img != null)
             {
-                item.picPlato.Image = Image.FromFile(rutaCompleta);
-            }
-            else
-            {
-                Console.WriteLine("⚠ Imagen no encontrada en carrito: " + imagenRuta);
+                item.picPlato.SizeMode = PictureBoxSizeMode.Zoom;
+                item.picPlato.Image = img;
             }
 
-            // botón eliminar del carrito
+            // ✅ BOTÓN ELIMINAR
             item.btnEliminar.Click += (s, e) =>
             {
                 AppData.Carrito.flowCarrito.Controls.Remove(item);
                 AppData.Carrito.ActualizarTotal();
             };
 
-            // agregar al carrito
             AppData.Carrito.flowCarrito.Controls.Add(item);
             AppData.Carrito.ActualizarTotal();
 
-            MessageBox.Show("Agregado al carrito");
+            MessageBox.Show("✅ Agregado al carrito");
+        }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
