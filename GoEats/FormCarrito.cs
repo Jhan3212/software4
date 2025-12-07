@@ -12,15 +12,14 @@ namespace GoEats
 
         private void FormCarrito_Load(object sender, EventArgs e)
         {
-            // Aquí no carga nada directamente, los productos se agregan desde FormMenu.
+            // No carga items directamente; se agregan desde FormMenu
         }
 
         private void btnAtras_Click(object sender, EventArgs e)
         {
-            this.Close(); // Simplemente cierra el carrito y regresa al menú
+            this.Close();
         }
 
- 
         private void btnPagar_Click(object sender, EventArgs e)
         {
             if (flowCarrito.Controls.Count == 0)
@@ -29,9 +28,7 @@ namespace GoEats
                 return;
             }
 
-            // Obtener el total actual
             decimal total = 0;
-
             foreach (CardCarrito item in flowCarrito.Controls)
             {
                 decimal precio = decimal.Parse(item.lblPrecio.Text.Replace("$", "").Trim());
@@ -39,26 +36,19 @@ namespace GoEats
                 total += precio * cantidad;
             }
 
-            MessageBox.Show(
-                $"Gracias por tu compra.\nTotal pagado: ${total:0.00}",
-                "Compra realizada",
-                MessageBoxButtons.OK,
-                MessageBoxIcon.Information
-            );
+            MessageBox.Show($"Gracias por tu compra.\nTotal pagado: ${total:0.00}", "Compra realizada",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            // Vaciar el carrito después del pago
             flowCarrito.Controls.Clear();
             lblTotal.Text = "Total: $0.00";
         }
 
-
         public void ActualizarTotal()
         {
             decimal total = 0;
-
             foreach (CardCarrito item in flowCarrito.Controls)
             {
-                decimal precio = decimal.Parse(item.lblPrecio.Text);
+                decimal precio = decimal.Parse(item.lblPrecio.Text.Replace("$", "").Trim());
                 int cantidad = int.Parse(item.lblCantidad.Text.Replace("Cantidad:", "").Trim());
                 total += precio * cantidad;
             }
