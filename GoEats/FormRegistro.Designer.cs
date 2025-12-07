@@ -128,6 +128,7 @@
             this.lblLogin.Size = new System.Drawing.Size(345, 32);
             this.lblLogin.TabIndex = 8;
             this.lblLogin.Text = "¿Ya tienes cuenta? Inicia sesión";
+            this.lblLogin.Click += new System.EventHandler(this.lblLogin_Click);
             // 
             // lblNombre
             // 

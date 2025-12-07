@@ -8,7 +8,7 @@ namespace GoEats
 
         public ConexionBD()
         {
-            conexion = new MySqlConnection("server=localhost; database=goeats; uid=root; pwd=0000;");
+            conexion = new MySqlConnection("server=localhost; database=goeats; uid=root; pwd=");
         }
 
         public MySqlConnection ObtenerConexion()
