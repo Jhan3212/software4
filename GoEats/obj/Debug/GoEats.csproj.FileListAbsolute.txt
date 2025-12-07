@@ -187,7 +187,6 @@ C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\bin\Debug\imagenes\me
 C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\bin\Debug\imagenes\menus\arepa_burger.jpeg
 C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\bin\Debug\imagenes\menus\arepa_de_combinacion.jpg
 C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\bin\Debug\imagenes\menus\costillitas_bbq.png
-C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\bin\Debug\imagenes\menus\costillitas_picantes.jpg
 C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\bin\Debug\imagenes\menus\hamburguesa_especial.png
 C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\bin\Debug\imagenes\menus\hamburguesa_sencilla.jpeg
 C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\bin\Debug\imagenes\menus\hot_dogs.jpeg

@@ -13,7 +13,7 @@ namespace GoEats
             InitializeComponent();
         }
 
-        private void FormPrincipal_Load(object sender, EventArgs e)
+        private void FormHome_Load(object sender, EventArgs e)
         {
             CargarRestaurantes();
         }
@@ -26,7 +26,8 @@ namespace GoEats
             using (MySqlConnection con = bd.ObtenerConexion())
             {
                 con.Open();
-                string sql = "SELECT * FROM Restaurantes";
+
+                string sql = "SELECT * FROM restaurantes";
                 MySqlCommand cmd = new MySqlCommand(sql, con);
                 MySqlDataReader dr = cmd.ExecuteReader();
 
@@ -37,9 +38,26 @@ namespace GoEats
                     card.lblNombre.Text = dr["Nombre"].ToString();
                     card.lblCategoria.Text = dr["Categoria"].ToString();
 
-                    string ruta = dr["Imagen"].ToString();
-                    if (File.Exists(ruta))
-                        card.picImagen.Image = Image.FromFile(ruta);
+                    string nombreImagen = dr["Imagen"].ToString();
+
+                    string rutaCompleta = Path.Combine(
+                        Application.StartupPath,
+                        "imagenes",
+                        "restaurantes",
+                        nombreImagen
+                    );
+
+                    if (File.Exists(rutaCompleta))
+                    {
+                        using (var bmpTemp = new Bitmap(rutaCompleta))
+                        {
+                            card.picImagen.Image = new Bitmap(bmpTemp);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Imagen no encontrada:\n" + rutaCompleta);
+                    }
 
                     int id = Convert.ToInt32(dr["Id"]);
                     card.btnVer.Click += (s, e) => AbrirMenu(id);

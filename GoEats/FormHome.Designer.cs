@@ -139,7 +139,7 @@
             this.Name = "FormHome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormHome";
-            this.Load += new System.EventHandler(this.FormPrincipal_Load);
+            this.Load += new System.EventHandler(this.FormHome_Load);
             this.panelTop.ResumeLayout(false);
             this.panelTop.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureLogoMini)).EndInit();

@@ -201,9 +201,6 @@
     <Content Include="imagenes\menus\costillitas_bbq.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="imagenes\menus\costillitas_picantes.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="imagenes\menus\hamburguesa_especial.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
