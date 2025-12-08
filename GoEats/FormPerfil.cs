@@ -98,7 +98,7 @@ namespace GoEats
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
         }
         private void btnLogout_Click(object sender, EventArgs e)
         {

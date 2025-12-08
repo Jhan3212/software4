@@ -52,15 +52,6 @@
             this.lblTitulo.Text = "Bienvenido";
             this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(75, 270);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(250, 32);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Correo o Usuario:";
-            // 
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Segoe UI", 14F);
@@ -68,15 +59,6 @@
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(490, 39);
             this.txtUsuario.TabIndex = 2;
-            // 
-            // label2
-            // 
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(75, 370);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(200, 32);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Contraseña:";
             // 
             // txtPass
             // 
@@ -113,10 +95,28 @@
             this.lblRegistro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblRegistro.Click += new System.EventHandler(this.lblRegistro_Click);
             // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(75, 270);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(250, 32);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Correo o Usuario:";
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(75, 370);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(200, 32);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Contraseña:";
+            // 
             // FormLogin
             // 
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(640, 720);
+            this.ClientSize = new System.Drawing.Size(640, 715);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureLogo);
@@ -132,6 +132,7 @@
             this.Load += new System.EventHandler(this.FormLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureLogo)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

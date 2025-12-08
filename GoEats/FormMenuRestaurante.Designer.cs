@@ -12,7 +12,7 @@
         #region Windows Form Designer generated code
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlTop = new System.Windows.Forms.Panel();
             this.btnBack = new System.Windows.Forms.Button();
             this.lblTitulo = new System.Windows.Forms.Label();
@@ -21,7 +21,6 @@
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnRecargar = new System.Windows.Forms.Button();
-
             this.pnlTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPlatos)).BeginInit();
             this.SuspendLayout();
@@ -64,14 +63,16 @@
             // 
             // dgvPlatos
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.dgvPlatos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.dgvPlatos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvPlatos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvPlatos.BackgroundColor = System.Drawing.Color.White;
+            this.dgvPlatos.ColumnHeadersHeight = 29;
             this.dgvPlatos.Location = new System.Drawing.Point(20, 90);
             this.dgvPlatos.MultiSelect = false;
             this.dgvPlatos.Name = "dgvPlatos";
             this.dgvPlatos.ReadOnly = true;
+            this.dgvPlatos.RowHeadersWidth = 51;
             this.dgvPlatos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvPlatos.Size = new System.Drawing.Size(660, 420);
             this.dgvPlatos.TabIndex = 3;
@@ -147,10 +148,10 @@
             this.Name = "FormMenuRestaurante";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menú del Restaurante";
-
             this.pnlTop.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPlatos)).EndInit();
             this.ResumeLayout(false);
+
         }
         #endregion
 

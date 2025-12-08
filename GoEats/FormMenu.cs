@@ -139,16 +139,23 @@ namespace GoEats
         // 🔹 Este botón SÍ abre el carrito ya cargado desde BD
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            FormCarrito carrito = new FormCarrito();
-            carrito.Show();
-            carrito.BringToFront();
+            this.Hide();
+            using (FormCarrito carrito = new FormCarrito())
+            {
+                carrito.ShowDialog();
+            }
+            this.Show();
         }
        
 
         private void lblUsuario_Click_1(object sender, EventArgs e)
         {
-            FormPerfil perfil = new FormPerfil();
-            perfil.ShowDialog();
+            this.Hide();
+            using (FormPerfil perfil = new FormPerfil())
+            {
+                perfil.ShowDialog();
+            }
+            this.Show();
         }
     }
 }

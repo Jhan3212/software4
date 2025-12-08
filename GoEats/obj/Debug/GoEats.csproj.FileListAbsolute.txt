@@ -220,3 +220,11 @@ C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\obj\Debug\GoEats.Form
 C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\obj\Debug\GoEats.FormPedidosAdmin.resources
 C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\bin\Debug\BCrypt.Net-Next.dll
 C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\obj\Debug\GoEats.DashboardAdmin.resources
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\obj\Debug\GoEats.FormAdminRestaurantes.resources
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\obj\Debug\GoEats.FormGestionUsuarios.resources
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\obj\Debug\GoEats.FormPedidoDetalles.resources
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\obj\Debug\GoEats.FormPedidosAdmin.resources
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\obj\Debug\GoEats.FormRestaurantEditor.resources

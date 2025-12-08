@@ -17,8 +17,16 @@ namespace GoEats
 
         private void FormPedidosAdmin_Load(object sender, EventArgs e)
         {
-            // Seleccionar filtro “Todos” desde el inicio
-            cmbFiltroEstado.SelectedIndex = 0;
+            // Seleccionar filtro “Todos” desde el inicio solo si hay elementos
+            if (cmbFiltroEstado.Items.Count > 0)
+            {
+                cmbFiltroEstado.SelectedIndex = 0;
+            }
+            else
+            {
+                // Defendernos si el ComboBox no fue poblado por alguna razón
+                cmbFiltroEstado.Text = "Todos";
+            }
         }
 
         private void FormPedidosAdmin_Shown(object sender, EventArgs e)
@@ -64,14 +72,29 @@ namespace GoEats
             }
         }
 
+        // Nuevo método auxiliar que recupera el valor de filtro de forma segura
+        private string ObtenerFiltroSeleccionado()
+        {
+            if (cmbFiltroEstado.SelectedItem != null)
+                return cmbFiltroEstado.SelectedItem.ToString();
+
+            if (!string.IsNullOrWhiteSpace(cmbFiltroEstado.Text))
+                return cmbFiltroEstado.Text;
+
+            if (cmbFiltroEstado.Items.Count > 0)
+                return cmbFiltroEstado.Items[0].ToString();
+
+            return "Todos";
+        }
+
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            CargarPedidos(cmbFiltroEstado.SelectedItem.ToString());
+            CargarPedidos(ObtenerFiltroSeleccionado());
         }
 
         private void cmbFiltroEstado_SelectedIndexChanged(object sender, EventArgs e)
         {
-            CargarPedidos(cmbFiltroEstado.SelectedItem.ToString());
+            CargarPedidos(ObtenerFiltroSeleccionado());
         }
 
         private void btnDetalles_Click(object sender, EventArgs e)
@@ -91,6 +114,8 @@ namespace GoEats
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
+            // Cambiado a Close() para permitir que el formulario padre (que hizo ShowDialog)
+            // reciba el control y pueda mostrarse de nuevo.
             this.Close();
         }
     }

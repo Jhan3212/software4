@@ -153,7 +153,7 @@
             // FormRegistro
             // 
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(640, 820);
+            this.ClientSize = new System.Drawing.Size(640, 715);
             this.Controls.Add(this.lblConfirmar);
             this.Controls.Add(this.lblPass);
             this.Controls.Add(this.lblCorreo);

@@ -70,7 +70,9 @@ namespace GoEats
         private void AbrirMenu(int idRestaurante)
         {
             FormMenu menu = new FormMenu(idRestaurante);
+            menu.FormClosed += (s, e) => this.Show();
             menu.Show();
+            this.Hide();
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -80,14 +82,22 @@ namespace GoEats
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            FormCarrito carrito = new FormCarrito();
-            carrito.ShowDialog();
+            this.Hide();
+            using (FormCarrito carrito = new FormCarrito())
+            {
+                carrito.ShowDialog();
+            }
+            this.Show();
         }
 
         private void lblUsuario_Click(object sender, EventArgs e)
         {
-            FormPerfil perfil = new FormPerfil();
-            perfil.ShowDialog();
+            this.Hide();
+            using (FormPerfil perfil = new FormPerfil())
+            {
+                perfil.ShowDialog();
+            }
+            this.Show();
         }
     }
 }

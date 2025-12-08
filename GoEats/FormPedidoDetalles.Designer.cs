@@ -17,7 +17,7 @@ namespace GoEats
 
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelTop = new System.Windows.Forms.Panel();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblId = new System.Windows.Forms.Label();
@@ -40,7 +40,7 @@ namespace GoEats
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop.Location = new System.Drawing.Point(0, 0);
             this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(640, 70);
+            this.panelTop.Size = new System.Drawing.Size(622, 70);
             this.panelTop.TabIndex = 0;
             // 
             // lblTitulo
@@ -50,7 +50,7 @@ namespace GoEats
             this.lblTitulo.ForeColor = System.Drawing.Color.White;
             this.lblTitulo.Location = new System.Drawing.Point(0, 0);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(640, 70);
+            this.lblTitulo.Size = new System.Drawing.Size(622, 70);
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "Detalles del Pedido";
             this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -107,8 +107,8 @@ namespace GoEats
             // 
             // dgvDetalles
             // 
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.dgvDetalles.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.dgvDetalles.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvDetalles.BackgroundColor = System.Drawing.Color.White;
             this.dgvDetalles.ColumnHeadersHeight = 29;
             this.dgvDetalles.GridColor = System.Drawing.Color.LightGray;
@@ -166,7 +166,7 @@ namespace GoEats
             // FormPedidoDetalles
             // 
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(640, 720);
+            this.ClientSize = new System.Drawing.Size(622, 668);
             this.Controls.Add(this.panelTop);
             this.Controls.Add(this.lblId);
             this.Controls.Add(this.lblUsuario);

@@ -31,6 +31,17 @@ namespace GoEats
             this.panelInferior.SuspendLayout();
             this.SuspendLayout();
             // 
+            // flowCarrito
+            // 
+            this.flowCarrito.AutoScroll = true;
+            this.flowCarrito.BackColor = System.Drawing.Color.White;
+            this.flowCarrito.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.flowCarrito.Location = new System.Drawing.Point(20, 80);
+            this.flowCarrito.Name = "flowCarrito";
+            this.flowCarrito.Padding = new System.Windows.Forms.Padding(10);
+            this.flowCarrito.Size = new System.Drawing.Size(600, 480);
+            this.flowCarrito.TabIndex = 1;
+            // 
             // lblTitulo
             // 
             this.lblTitulo.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold);
@@ -40,27 +51,6 @@ namespace GoEats
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "Carrito de Compras";
             this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // flowCarrito
-            // 
-            this.flowCarrito.AutoScroll = true;
-            this.flowCarrito.BackColor = System.Drawing.Color.White;
-            this.flowCarrito.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.flowCarrito.Location = new System.Drawing.Point(20, 80);
-            this.flowCarrito.Name = "flowCarrito";
-            this.flowCarrito.Padding = new Padding(10);
-            this.flowCarrito.Size = new System.Drawing.Size(600, 480);
-            this.flowCarrito.TabIndex = 1;
-            // 
-            // panelInferior
-            // 
-            this.panelInferior.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panelInferior.Controls.Add(this.lblTotal);
-            this.panelInferior.Controls.Add(this.btnPagar);
-            this.panelInferior.Location = new System.Drawing.Point(20, 570);
-            this.panelInferior.Name = "panelInferior";
-            this.panelInferior.Size = new System.Drawing.Size(600, 80);
-            this.panelInferior.TabIndex = 5;
             // 
             // lblTotal
             // 
@@ -99,6 +89,16 @@ namespace GoEats
             this.btnAtras.Text = "Volver";
             this.btnAtras.UseVisualStyleBackColor = false;
             this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
+            // 
+            // panelInferior
+            // 
+            this.panelInferior.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panelInferior.Controls.Add(this.lblTotal);
+            this.panelInferior.Controls.Add(this.btnPagar);
+            this.panelInferior.Location = new System.Drawing.Point(20, 570);
+            this.panelInferior.Name = "panelInferior";
+            this.panelInferior.Size = new System.Drawing.Size(600, 80);
+            this.panelInferior.TabIndex = 5;
             // 
             // FormCarrito
             // 

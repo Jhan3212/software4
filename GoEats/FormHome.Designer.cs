@@ -146,7 +146,7 @@
             // FormHome
             // 
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(640, 720);
+            this.ClientSize = new System.Drawing.Size(640, 715);
             this.Controls.Add(this.flowRestaurantes);
             this.Controls.Add(this.lblRestaurantes);
             this.Controls.Add(this.txtBuscar);

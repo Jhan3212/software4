@@ -57,22 +57,36 @@ namespace GoEats
 
         private void btnGestionRest_Click(object sender, EventArgs e)
         {
-            FormAdminRestaurantes frm = new FormAdminRestaurantes();
-            frm.ShowDialog();
+            this.Hide();
+            using (FormAdminRestaurantes frm = new FormAdminRestaurantes())
+            {
+                frm.ShowDialog();
+            }
+            // Refrescar estadísticas al volver
             CargarEstadisticas();
+            this.Show();
         }
 
         private void btnGestionUsuarios_Click(object sender, EventArgs e)
         {
-            FormGestionUsuarios frm = new FormGestionUsuarios();
-            frm.ShowDialog();
+            this.Hide();
+            using (FormGestionUsuarios frm = new FormGestionUsuarios())
+            {
+                frm.ShowDialog();
+            }
+            // Refrescar estadísticas al volver
             CargarEstadisticas();
+            this.Show();
         }
 
         private void btnVerPedidos_Click(object sender, EventArgs e)
         {
-            FormPedidosAdmin frm = new FormPedidosAdmin();
-            frm.ShowDialog();
+            this.Hide();
+            using (FormPedidosAdmin frm = new FormPedidosAdmin())
+            {
+                frm.ShowDialog();
+            }
+            this.Show();
         }
 
         private void btnCerrarSesion_Click(object sender, EventArgs e)

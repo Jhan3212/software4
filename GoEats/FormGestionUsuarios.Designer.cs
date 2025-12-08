@@ -17,13 +17,13 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlTop = new System.Windows.Forms.Panel();
+            this.btnAtras = new System.Windows.Forms.Button();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.btnRegresar = new System.Windows.Forms.Button();
             this.dataUsuarios = new System.Windows.Forms.DataGridView();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnCambiarRol = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnAtras = new System.Windows.Forms.Button();
             this.pnlTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataUsuarios)).BeginInit();
             this.SuspendLayout();
@@ -37,8 +37,21 @@
             this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTop.Location = new System.Drawing.Point(0, 0);
             this.pnlTop.Name = "pnlTop";
-            this.pnlTop.Size = new System.Drawing.Size(640, 70);
+            this.pnlTop.Size = new System.Drawing.Size(622, 70);
             this.pnlTop.TabIndex = 8;
+            // 
+            // btnAtras
+            // 
+            this.btnAtras.BackColor = System.Drawing.Color.LightGray;
+            this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAtras.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
+            this.btnAtras.Location = new System.Drawing.Point(20, 12);
+            this.btnAtras.Name = "btnAtras";
+            this.btnAtras.Size = new System.Drawing.Size(50, 40);
+            this.btnAtras.TabIndex = 9;
+            this.btnAtras.Text = "◄";
+            this.btnAtras.UseVisualStyleBackColor = false;
+            this.btnAtras.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // lblTitulo
             // 
@@ -47,7 +60,7 @@
             this.lblTitulo.ForeColor = System.Drawing.Color.White;
             this.lblTitulo.Location = new System.Drawing.Point(0, 0);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(640, 70);
+            this.lblTitulo.Size = new System.Drawing.Size(622, 70);
             this.lblTitulo.TabIndex = 4;
             this.lblTitulo.Text = "Gestión de Usuarios";
             this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -134,23 +147,10 @@
             this.btnEliminar.UseVisualStyleBackColor = false;
             this.btnEliminar.Click += new System.EventHandler(this.BtnEliminar_Click);
             // 
-            // btnAtras
-            // 
-            this.btnAtras.BackColor = System.Drawing.Color.LightGray;
-            this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAtras.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
-            this.btnAtras.Location = new System.Drawing.Point(20, 12);
-            this.btnAtras.Name = "btnAtras";
-            this.btnAtras.Size = new System.Drawing.Size(50, 40);
-            this.btnAtras.TabIndex = 9;
-            this.btnAtras.Text = "◄";
-            this.btnAtras.UseVisualStyleBackColor = false;
-            this.btnAtras.Click += new System.EventHandler(this.btnRegresar_Click);
-            // 
             // FormGestionUsuarios
             // 
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(640, 680);
+            this.ClientSize = new System.Drawing.Size(622, 668);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnCambiarRol);
             this.Controls.Add(this.btnActualizar);

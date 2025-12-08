@@ -137,7 +137,7 @@ namespace GoEats
         }
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
         }
         private void BtnMenu_Click(object sender, EventArgs e)
         {

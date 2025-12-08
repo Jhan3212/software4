@@ -39,7 +39,7 @@
             this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTop.Location = new System.Drawing.Point(0, 0);
             this.pnlTop.Name = "pnlTop";
-            this.pnlTop.Size = new System.Drawing.Size(640, 70);
+            this.pnlTop.Size = new System.Drawing.Size(622, 70);
             this.pnlTop.TabIndex = 6;
             // 
             // lblTitulo
@@ -49,7 +49,7 @@
             this.lblTitulo.ForeColor = System.Drawing.Color.White;
             this.lblTitulo.Location = new System.Drawing.Point(0, 0);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(640, 70);
+            this.lblTitulo.Size = new System.Drawing.Size(622, 70);
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "Panel de Administración";
             this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -181,7 +181,7 @@
             // DashboardAdmin
             // 
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(640, 480);
+            this.ClientSize = new System.Drawing.Size(622, 480);
             this.Controls.Add(this.btnCerrarSesion);
             this.Controls.Add(this.btnVerPedidos);
             this.Controls.Add(this.btnGestionUsuarios);

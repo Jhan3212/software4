@@ -232,11 +232,17 @@
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormMenuRestaurante.resx">
+      <DependentUpon>FormMenuRestaurante.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormPedidoDetalles.resx">
       <DependentUpon>FormPedidoDetalles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPedidosAdmin.resx">
       <DependentUpon>FormPedidosAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPerfil.resx">
+      <DependentUpon>FormPerfil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRegistro.resx">
       <DependentUpon>FormRegistro.cs</DependentUpon>
