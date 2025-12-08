@@ -32,7 +32,7 @@ namespace GoEats
             foreach (CardCarrito item in flowCarrito.Controls)
             {
                 decimal precio = decimal.Parse(item.lblPrecio.Text.Replace("$", "").Trim());
-                int cantidad = int.Parse(item.lblCantidad.Text.Replace("Cantidad:", "").Trim());
+                int cantidad = int.Parse(item.lblCantidad.Text.Trim());
                 total += precio * cantidad;
             }
 
@@ -49,7 +49,7 @@ namespace GoEats
             foreach (CardCarrito item in flowCarrito.Controls)
             {
                 decimal precio = decimal.Parse(item.lblPrecio.Text.Replace("$", "").Trim());
-                int cantidad = int.Parse(item.lblCantidad.Text.Replace("Cantidad:", "").Trim());
+                int cantidad = int.Parse(item.lblCantidad.Text.Trim());
                 total += precio * cantidad;
             }
 

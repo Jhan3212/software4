@@ -198,3 +198,17 @@ C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\obj\Debug\GoEats.cspr
 C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\obj\Debug\GoEats.csproj.Up2Date
 C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\obj\Debug\GoEats.exe
 C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\obj\Debug\GoEats.pdb
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\imagenes\menus\alitas_bbq.jpg
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\imagenes\menus\alitas_picantes.jpg
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\imagenes\menus\arepa_burger.jpeg
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\imagenes\menus\arepa_de_combinacion.jpg
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\imagenes\menus\costillitas_bbq.png
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\imagenes\menus\hamburguesa_especial.png
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\imagenes\menus\hamburguesa_sencilla.jpeg
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\imagenes\menus\hot_dogs.jpeg
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\imagenes\menus\patacon_con_puerco_y_pollo.jpg
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\imagenes\menus\patacon_relleno.jpeg
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\imagenes\menus\pollo_crispy.jpeg
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\imagenes\menus\salchipapa_grande.png
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\imagenes\menus\salchipapa_pequena.jpg
+C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\imagenes\restaurantes\LosArrierosChepo.png

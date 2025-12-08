@@ -148,7 +148,7 @@ namespace GoEats
             {
                 lblNombrePlato = { Text = nombre },
                 lblPrecio = { Text = precio.ToString("0.00") },
-                lblCantidad = { Text = "Cantidad: 1" }
+                lblCantidad = { Text = "1" }
             };
 
             string rutaCompleta = BuscarImagen(nombreImagen);
