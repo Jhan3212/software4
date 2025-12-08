@@ -71,6 +71,7 @@ namespace GoEats
             this.lblCantidad.Size = new System.Drawing.Size(20, 25);
             this.lblCantidad.TabIndex = 3;
             this.lblCantidad.Text = "1";
+            this.lblCantidad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btnEliminar
             // 
@@ -138,8 +139,6 @@ namespace GoEats
             this.ResumeLayout(false);
 
         }
-
-
         private Button btnMas;
         private Button btnMenos;
         public Label lblCant;
