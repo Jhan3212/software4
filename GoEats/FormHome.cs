@@ -15,6 +15,7 @@ namespace GoEats
 
         private void FormHome_Load(object sender, EventArgs e)
         {
+            lblUsuario.Text = Sesion.Nombre; // ← Mostrar usuario
             CargarRestaurantes();
         }
 
@@ -39,7 +40,6 @@ namespace GoEats
                     card.lblCategoria.Text = dr["Categoria"].ToString();
 
                     string nombreImagen = dr["Imagen"].ToString();
-
                     string rutaCompleta = Path.Combine(
                         Application.StartupPath,
                         "imagenes",
@@ -82,6 +82,12 @@ namespace GoEats
         {
             FormCarrito carrito = new FormCarrito();
             carrito.ShowDialog();
+        }
+
+        private void lblUsuario_Click(object sender, EventArgs e)
+        {
+            FormPerfil perfil = new FormPerfil();
+            perfil.ShowDialog();
         }
     }
 }

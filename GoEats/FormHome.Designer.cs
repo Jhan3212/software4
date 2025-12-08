@@ -3,7 +3,7 @@
     partial class FormHome
     {
         private System.ComponentModel.IContainer components = null;
-
+        private System.Windows.Forms.Label lblUsuario;
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -19,17 +19,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormHome));
             this.panelTop = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.lblAppName = new System.Windows.Forms.Label();
             this.pictureLogoMini = new System.Windows.Forms.PictureBox();
+            this.lblUsuario = new System.Windows.Forms.Label();
             this.lblBuscar = new System.Windows.Forms.Label();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.lblRestaurantes = new System.Windows.Forms.Label();
             this.flowRestaurantes = new System.Windows.Forms.FlowLayoutPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelTop.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureLogoMini)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureLogoMini)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTop
@@ -39,11 +40,23 @@
             this.panelTop.Controls.Add(this.btnCerrar);
             this.panelTop.Controls.Add(this.lblAppName);
             this.panelTop.Controls.Add(this.pictureLogoMini);
+            this.panelTop.Controls.Add(this.lblUsuario);
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop.Location = new System.Drawing.Point(0, 0);
             this.panelTop.Name = "panelTop";
             this.panelTop.Size = new System.Drawing.Size(640, 70);
             this.panelTop.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(520, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 42);
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // btnCerrar
             // 
@@ -78,6 +91,19 @@
             this.pictureLogoMini.Size = new System.Drawing.Size(60, 60);
             this.pictureLogoMini.TabIndex = 0;
             this.pictureLogoMini.TabStop = false;
+            // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblUsuario.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.lblUsuario.ForeColor = System.Drawing.Color.White;
+            this.lblUsuario.Location = new System.Drawing.Point(419, 22);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(84, 28);
+            this.lblUsuario.TabIndex = 4;
+            this.lblUsuario.Text = "Usuario";
+            this.lblUsuario.Click += new System.EventHandler(this.lblUsuario_Click);
             // 
             // lblBuscar
             // 
@@ -117,17 +143,6 @@
             this.flowRestaurantes.Size = new System.Drawing.Size(590, 440);
             this.flowRestaurantes.TabIndex = 4;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(520, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 42);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // FormHome
             // 
             this.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -143,9 +158,11 @@
             this.Text = "FormHome";
             this.Load += new System.EventHandler(this.FormHome_Load);
             this.panelTop.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureLogoMini)).EndInit();
+            this.panelTop.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureLogoMini)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -153,12 +170,12 @@
 
         private System.Windows.Forms.Panel panelTop;
         private System.Windows.Forms.Button btnCerrar;
-        private System.Windows.Forms.PictureBox pictureLogoMini;
         private System.Windows.Forms.Label lblBuscar;
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.Label lblRestaurantes;
         private System.Windows.Forms.FlowLayoutPanel flowRestaurantes;
         private System.Windows.Forms.Label lblAppName;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureLogoMini;
     }
 }

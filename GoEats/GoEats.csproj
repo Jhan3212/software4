@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BCrypt.Net-Next, Version=4.0.3.0, Culture=neutral, PublicKeyToken=1e11be04b6288443, processorArchitecture=MSIL">
+      <HintPath>..\packages\BCrypt.Net-Next.4.0.3\lib\net472\BCrypt.Net-Next.dll</HintPath>
+    </Reference>
     <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
       <HintPath>..\packages\BouncyCastle.Cryptography.2.6.2\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
     </Reference>
@@ -113,12 +116,32 @@
     <Compile Include="CardRestaurante.Designer.cs">
       <DependentUpon>CardRestaurante.cs</DependentUpon>
     </Compile>
+    <Compile Include="CarritoDAO.cs" />
+    <Compile Include="CarritoItemDAO.cs" />
     <Compile Include="ConexionDB.cs" />
+    <Compile Include="DashboardAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardAdmin.Designer.cs">
+      <DependentUpon>DashboardAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdminRestaurantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdminRestaurantes.Designer.cs">
+      <DependentUpon>FormAdminRestaurantes.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormCarrito.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormCarrito.Designer.cs">
       <DependentUpon>FormCarrito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGestionUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGestionUsuarios.Designer.cs">
+      <DependentUpon>FormGestionUsuarios.cs</DependentUpon>
     </Compile>
     <Compile Include="FormHome.cs">
       <SubType>Form</SubType>
@@ -138,19 +161,67 @@
     <Compile Include="FormMenu.Designer.cs">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMenuItemEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuItemEditor.Designer.cs">
+      <DependentUpon>FormMenuItemEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenuRestaurante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuRestaurante.Designer.cs">
+      <DependentUpon>FormMenuRestaurante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPedidoDetalles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPedidoDetalles.Designer.cs">
+      <DependentUpon>FormPedidoDetalles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPedidosAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPedidosAdmin.Designer.cs">
+      <DependentUpon>FormPedidosAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPerfil.Designer.cs">
+      <DependentUpon>FormPerfil.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormRegistro.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormRegistro.Designer.cs">
       <DependentUpon>FormRegistro.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormRestaurantEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRestaurantEditor.Designer.cs">
+      <DependentUpon>FormRestaurantEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PedidoDAO.cs" />
+    <Compile Include="PedidoDetalleDAO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sesion.cs" />
     <EmbeddedResource Include="CardCarrito.resx">
       <DependentUpon>CardCarrito.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DashboardAdmin.resx">
+      <DependentUpon>DashboardAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdminRestaurantes.resx">
+      <DependentUpon>FormAdminRestaurantes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormCarrito.resx">
       <DependentUpon>FormCarrito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGestionUsuarios.resx">
+      <DependentUpon>FormGestionUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormHome.resx">
       <DependentUpon>FormHome.cs</DependentUpon>
@@ -161,8 +232,17 @@
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormPedidoDetalles.resx">
+      <DependentUpon>FormPedidoDetalles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPedidosAdmin.resx">
+      <DependentUpon>FormPedidosAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormRegistro.resx">
       <DependentUpon>FormRegistro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRestaurantEditor.resx">
+      <DependentUpon>FormRestaurantEditor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

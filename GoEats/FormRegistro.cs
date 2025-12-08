@@ -1,14 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
-using Org.BouncyCastle.Pqc.Crypto.Frodo;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using BCrypt.Net; // ← Importante para usar Bcrypt
 
 namespace GoEats
 {
@@ -24,7 +17,6 @@ namespace GoEats
         {
             string nombre = txtNombre.Text.Trim();
             string correo = txtCorreo.Text.Trim();
-            string usuario = txtUsuario.Text.Trim(); // no existe en BD, opcional
             string pass = txtPass.Text.Trim();
             string confirmar = txtConfirmar.Text.Trim();
 
@@ -66,12 +58,15 @@ namespace GoEats
                         return;
                     }
 
+                    // Hashear contraseña
+                    string hash = BCrypt.Net.BCrypt.HashPassword(pass);
+
                     // Insertar usuario
                     string insertQuery = "INSERT INTO usuarios (Nombre, Email, Password) VALUES (@nom, @correo, @pass)";
                     MySqlCommand cmdInsert = new MySqlCommand(insertQuery, con);
                     cmdInsert.Parameters.AddWithValue("@nom", nombre);
                     cmdInsert.Parameters.AddWithValue("@correo", correo);
-                    cmdInsert.Parameters.AddWithValue("@pass", pass); // si deseas, puedo agregarte hashing
+                    cmdInsert.Parameters.AddWithValue("@pass", hash); // ahora guardamos el hash
 
                     cmdInsert.ExecuteNonQuery();
 

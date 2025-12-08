@@ -25,13 +25,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMenu));
             this.panelTop = new System.Windows.Forms.Panel();
-            this.btnAtras = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnAtras = new System.Windows.Forms.Button();
             this.picRestaurante = new System.Windows.Forms.PictureBox();
             this.lblNombreRestaurante = new System.Windows.Forms.Label();
             this.lblCategoriaRestaurante = new System.Windows.Forms.Label();
             this.lblMenuTitulo = new System.Windows.Forms.Label();
             this.flowMenu = new System.Windows.Forms.FlowLayoutPanel();
+            this.lblUsuario = new System.Windows.Forms.Label();
             this.panelTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picRestaurante)).BeginInit();
@@ -40,6 +41,7 @@
             // panelTop
             // 
             this.panelTop.BackColor = System.Drawing.Color.SeaGreen;
+            this.panelTop.Controls.Add(this.lblUsuario);
             this.panelTop.Controls.Add(this.pictureBox1);
             this.panelTop.Controls.Add(this.btnAtras);
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
@@ -47,6 +49,17 @@
             this.panelTop.Name = "panelTop";
             this.panelTop.Size = new System.Drawing.Size(640, 60);
             this.panelTop.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(580, 10);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(45, 40);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // btnAtras
             // 
@@ -60,17 +73,6 @@
             this.btnAtras.Text = "◄";
             this.btnAtras.UseVisualStyleBackColor = false;
             this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(580, 10);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(45, 40);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // picRestaurante
             // 
@@ -123,6 +125,19 @@
             this.flowMenu.Size = new System.Drawing.Size(600, 250);
             this.flowMenu.TabIndex = 6;
             // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblUsuario.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.lblUsuario.ForeColor = System.Drawing.Color.White;
+            this.lblUsuario.Location = new System.Drawing.Point(479, 17);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(84, 28);
+            this.lblUsuario.TabIndex = 7;
+            this.lblUsuario.Text = "Usuario";
+            this.lblUsuario.Click += new System.EventHandler(this.lblUsuario_Click_1);
+            // 
             // FormMenu
             // 
             this.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -139,10 +154,13 @@
             this.Text = "FormMenu";
             this.Load += new System.EventHandler(this.FormMenu_Load);
             this.panelTop.ResumeLayout(false);
+            this.panelTop.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picRestaurante)).EndInit();
             this.ResumeLayout(false);
 
         }
+
+        private System.Windows.Forms.Label lblUsuario;
     }
 }

@@ -212,3 +212,11 @@ C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\imagenes
 C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\imagenes\menus\salchipapa_grande.png
 C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\imagenes\menus\salchipapa_pequena.jpg
 C:\Users\usuario1\Documents\Alexander\GitHub\software4\GoEats\bin\Debug\imagenes\restaurantes\LosArrierosChepo.png
+C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\obj\Debug\GoEats.FormRestaurantEditor.resources
+C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\obj\Debug\GoEats.DashboardAdmin.resources
+C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\obj\Debug\GoEats.FormAdminRestaurantes.resources
+C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\obj\Debug\GoEats.FormGestionUsuarios.resources
+C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\obj\Debug\GoEats.FormPedidoDetalles.resources
+C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\obj\Debug\GoEats.FormPedidosAdmin.resources
+C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\darkt\OneDrive\Documentos\GitHub\software4\GoEats\bin\Debug\BCrypt.Net-Next.xml

@@ -68,7 +68,7 @@ namespace GoEats
             this.lblCantidad.ForeColor = System.Drawing.Color.DimGray;
             this.lblCantidad.Location = new System.Drawing.Point(218, 75);
             this.lblCantidad.Name = "lblCantidad";
-            this.lblCantidad.Size = new System.Drawing.Size(20, 25);
+            this.lblCantidad.Size = new System.Drawing.Size(38, 25);
             this.lblCantidad.TabIndex = 3;
             this.lblCantidad.Text = "1";
             this.lblCantidad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;

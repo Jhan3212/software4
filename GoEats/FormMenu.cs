@@ -18,54 +18,32 @@ namespace GoEats
 
         private void FormMenu_Load(object sender, EventArgs e)
         {
+            lblUsuario.Text = Sesion.Nombre; // ← Mostrar usuario
             CargarInfoRestaurante();
             CargarPlatos();
         }
 
-        // 🔹 Busca la imagen y devuelve la ruta completa
         private string BuscarImagen(string nombreArchivo)
         {
-            try
-            {
-                string ruta = Path.Combine(Application.StartupPath, "imagenes", "menus", nombreArchivo);
-                if (File.Exists(ruta))
-                    return ruta;
-
-                MessageBox.Show("❌ No se encontró la imagen:\n" + ruta);
-                return null;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("⚠ Error al buscar imagen:\n" + ex.Message);
-                return null;
-            }
+            string ruta = Path.Combine(Application.StartupPath, "imagenes", "menus", nombreArchivo);
+            return File.Exists(ruta) ? ruta : null;
         }
 
-        // 🔹 Carga la imagen sin bloquear archivos
         private Image CargarImagenSegura(string ruta)
         {
-            try
-            {
-                if (string.IsNullOrEmpty(ruta) || !File.Exists(ruta))
-                    return null;
-
-                byte[] bytes = File.ReadAllBytes(ruta);
-                using (MemoryStream ms = new MemoryStream(bytes))
-                {
-                    return Image.FromStream(ms);
-                }
-            }
-            catch
-            {
+            if (string.IsNullOrEmpty(ruta) || !File.Exists(ruta))
                 return null;
-            }
+
+            byte[] data = File.ReadAllBytes(ruta);
+            using (MemoryStream ms = new MemoryStream(data))
+                return Image.FromStream(ms);
         }
 
-        // 🔹 Carga info del restaurante
         private void CargarInfoRestaurante()
         {
             ConexionBD bd = new ConexionBD();
-            using (MySqlConnection con = bd.ObtenerConexion())
+
+            using (var con = bd.ObtenerConexion())
             {
                 con.Open();
                 string sql = "SELECT Nombre, Categoria, Imagen FROM restaurantes WHERE Id=@id";
@@ -79,9 +57,10 @@ namespace GoEats
                         lblNombreRestaurante.Text = dr["Nombre"].ToString();
                         lblCategoriaRestaurante.Text = dr["Categoria"].ToString();
 
-                        string nombreImagen = dr["Imagen"].ToString();
-                        string rutaCompleta = Path.Combine(Application.StartupPath, "imagenes", "restaurantes", nombreImagen);
-                        var img = CargarImagenSegura(rutaCompleta);
+                        string archivo = dr["Imagen"].ToString();
+                        string ruta = Path.Combine(Application.StartupPath, "imagenes", "restaurantes", archivo);
+
+                        var img = CargarImagenSegura(ruta);
                         if (img != null)
                         {
                             picRestaurante.Image = img;
@@ -92,44 +71,42 @@ namespace GoEats
             }
         }
 
-        // 🔹 Carga los platos del menú
         private void CargarPlatos()
         {
             flowMenu.Controls.Clear();
             ConexionBD bd = new ConexionBD();
 
-            using (MySqlConnection con = bd.ObtenerConexion())
+            using (var con = bd.ObtenerConexion())
             {
                 con.Open();
-                string sql = "SELECT Nombre, Precio, Imagen FROM menus WHERE IdRestaurante=@idRestaurante";
+                string sql = "SELECT Id, Nombre, Precio, Imagen FROM menus WHERE IdRestaurante=@id";
                 MySqlCommand cmd = new MySqlCommand(sql, con);
-                cmd.Parameters.AddWithValue("@idRestaurante", idRestaurante);
+                cmd.Parameters.AddWithValue("@id", idRestaurante);
 
                 using (MySqlDataReader dr = cmd.ExecuteReader())
                 {
                     while (dr.Read())
                     {
+                        int idMenu = Convert.ToInt32(dr["Id"]);
                         string nombre = dr["Nombre"].ToString();
                         decimal precio = Convert.ToDecimal(dr["Precio"]);
-                        string nombreImagen = dr["Imagen"].ToString();
+                        string archivo = dr["Imagen"].ToString();
 
-                        CardPlato card = new CardPlato
-                        {
-                            lblNombrePlato = { Text = nombre },
-                            lblPrecio = { Text = $"${precio:0.00}" }
-                        };
+                        CardPlato card = new CardPlato();
+                        card.lblNombrePlato.Text = nombre;
+                        card.lblPrecio.Text = $"${precio:0.00}";
 
-                        // Carga imagen correctamente
-                        string rutaCompleta = BuscarImagen(nombreImagen);
-                        var img = CargarImagenSegura(rutaCompleta);
+                        var img = CargarImagenSegura(BuscarImagen(archivo));
                         if (img != null)
                         {
                             card.picPlato.Image = img;
                             card.picPlato.SizeMode = PictureBoxSizeMode.Zoom;
                         }
 
-                        // Botón agregar al carrito
-                        card.btnAgregar.Click += (s, e) => AgregarAlCarrito(nombre, precio, nombreImagen);
+                        card.btnAgregar.Click += (s, e) =>
+                        {
+                            AgregarAlCarritoBD(idMenu, nombre, precio);
+                        };
 
                         flowMenu.Controls.Add(card);
                     }
@@ -137,51 +114,41 @@ namespace GoEats
             }
         }
 
-        // 🔹 Agrega al carrito
-        private void AgregarAlCarrito(string nombre, decimal precio, string nombreImagen)
+        // 🔹 Nuevo método → maneja BD, no UI
+        private void AgregarAlCarritoBD(int idMenu, string nombre, decimal precio)
         {
-            // Crear instancia del carrito si no existe
-            if (AppData.Carrito == null || AppData.Carrito.IsDisposed)
-                AppData.Carrito = new FormCarrito();
-
-            CardCarrito item = new CardCarrito
+            if (Sesion.IdUsuario == 0)
             {
-                lblNombrePlato = { Text = nombre },
-                lblPrecio = { Text = precio.ToString("0.00") },
-                lblCantidad = { Text = "1" }
-            };
-
-            string rutaCompleta = BuscarImagen(nombreImagen);
-            var img = CargarImagenSegura(rutaCompleta);
-            if (img != null)
-            {
-                item.picPlato.Image = img;
-                item.picPlato.SizeMode = PictureBoxSizeMode.Zoom;
+                MessageBox.Show("Debes iniciar sesión primero.");
+                return;
             }
 
-            // Botón eliminar
-            item.btnEliminar.Click += (s, e) =>
-            {
-                AppData.Carrito.flowCarrito.Controls.Remove(item);
-                AppData.Carrito.ActualizarTotal();
-            };
+            CarritoItemDAO daoItem = new CarritoItemDAO();
+            int idItem = daoItem.AgregarItem(Sesion.IdCarrito, idMenu, 1, precio);
 
-            AppData.Carrito.flowCarrito.Controls.Add(item);
-            AppData.Carrito.ActualizarTotal();
+            MessageBox.Show($"Agregado al carrito: {nombre}");
 
-            MessageBox.Show("✅ Agregado al carrito");
+            // No se abre el carrito automáticamente ⚠
         }
 
-        private void btnAtras_Click(object sender, EventArgs e) => this.Close();
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
 
+        // 🔹 Este botón SÍ abre el carrito ya cargado desde BD
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            // Abrir carrito compartido
-            if (AppData.Carrito == null || AppData.Carrito.IsDisposed)
-                AppData.Carrito = new FormCarrito();
+            FormCarrito carrito = new FormCarrito();
+            carrito.Show();
+            carrito.BringToFront();
+        }
+       
 
-            AppData.Carrito.Show();
-            AppData.Carrito.BringToFront();
+        private void lblUsuario_Click_1(object sender, EventArgs e)
+        {
+            FormPerfil perfil = new FormPerfil();
+            perfil.ShowDialog();
         }
     }
 }

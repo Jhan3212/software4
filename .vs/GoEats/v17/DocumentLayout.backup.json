@@ -1,54 +1,210 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\",
+  "WorkspaceRootPath": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\goeats\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\usuario1\\documents\\alexander\\github\\software4\\goeats\\formcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\goeats\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\goeats\\cardcarrito.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\cardcarrito.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\goeats\\formcarrito.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formcarrito.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\goeats\\formmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\goeats\\cardcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\cardcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\goeats\\cardcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\cardcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\goeats\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\goeats\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\goeats\\formcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\goeats\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\goeats\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formhome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formhome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formperfil.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formperfil.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\goeats\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\goeats\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\goeats\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formadminrestaurantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formadminrestaurantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\dashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\dashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\goeats\\formcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\carritodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\carritodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\goeats\\cardcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\cardcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\goeats\\formcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\carritoitemdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\carritoitemdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\cardplato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\cardplato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formmenuitemeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formmenuitemeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formmenurestaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formmenurestaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formmenurestaurante.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formmenurestaurante.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formmenuitemeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formmenuitemeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formmenuitemeditor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formmenuitemeditor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formmenurestaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formmenurestaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formrestauranteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formrestauranteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formadminrestaurantes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formadminrestaurantes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formadminrestaurantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formadminrestaurantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formadminrestaurantes.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formadminrestaurantes.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formpedidosadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formpedidosadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formpedidosadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formpedidosadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formpedidodetalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formpedidodetalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formgestionusuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formgestionusuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formpedidosadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formpedidosadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\goeats\\formcarrito.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formcarrito.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\dashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\dashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formpedidodetalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formpedidodetalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\pedidodetalledao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\pedidodetalledao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\pedidodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\pedidodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\goeats\\cardcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\cardcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\goeats\\cardcarrito.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\cardcarrito.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formpedidodetalles.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formpedidodetalles.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\dashboardadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\dashboardadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formrestauranteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formrestauranteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|c:\\users\\darkt\\onedrive\\documentos\\github\\software4\\goeats\\formrestauranteditor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formrestauranteditor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\goeats\\formmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE71784-04D5-41A6-97A1-5CB75A3AE295}|GoEats\\GoEats.csproj|solutionrelative:goeats\\formmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +214,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,87 +222,88 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormCarrito.cs",
-              "DocumentMoniker": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\FormCarrito.cs",
-              "RelativeDocumentMoniker": "GoEats\\FormCarrito.cs",
-              "ToolTip": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\FormCarrito.cs",
-              "RelativeToolTip": "GoEats\\FormCarrito.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAswCIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "FormPerfil.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormPerfil.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormPerfil.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormPerfil.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GoEats\\FormPerfil.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T19:53:01.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormCarrito.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\FormCarrito.Designer.cs",
-              "RelativeDocumentMoniker": "GoEats\\FormCarrito.Designer.cs",
-              "ToolTip": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\FormCarrito.Designer.cs",
-              "RelativeToolTip": "GoEats\\FormCarrito.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T23:54:46.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CardCarrito.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\CardCarrito.Designer.cs",
-              "RelativeDocumentMoniker": "GoEats\\CardCarrito.Designer.cs",
-              "ToolTip": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\CardCarrito.Designer.cs",
-              "RelativeToolTip": "GoEats\\CardCarrito.Designer.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAwwCwAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T23:54:00.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CardCarrito.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\CardCarrito.cs",
-              "RelativeDocumentMoniker": "GoEats\\CardCarrito.cs",
-              "ToolTip": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\CardCarrito.cs [Dise\u00F1o]",
-              "RelativeToolTip": "GoEats\\CardCarrito.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T21:50:51.894Z",
+              "WhenOpened": "2025-12-08T05:47:24.17Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CardCarrito.cs",
-              "DocumentMoniker": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\CardCarrito.cs",
-              "RelativeDocumentMoniker": "GoEats\\CardCarrito.cs",
-              "ToolTip": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\CardCarrito.cs",
-              "RelativeToolTip": "GoEats\\CardCarrito.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAswC8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "CarritoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\CarritoDAO.cs",
+              "RelativeDocumentMoniker": "GoEats\\CarritoDAO.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\CarritoDAO.cs",
+              "RelativeToolTip": "GoEats\\CarritoDAO.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T21:50:57.606Z",
+              "WhenOpened": "2025-12-08T03:03:40.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormMenu.cs",
-              "DocumentMoniker": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\FormMenu.cs",
-              "RelativeDocumentMoniker": "GoEats\\FormMenu.cs",
-              "ToolTip": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\FormMenu.cs",
-              "RelativeToolTip": "GoEats\\FormMenu.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAjwJYAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "CarritoItemDAO.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\CarritoItemDAO.cs",
+              "RelativeDocumentMoniker": "GoEats\\CarritoItemDAO.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\CarritoItemDAO.cs",
+              "RelativeToolTip": "GoEats\\CarritoItemDAO.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAIwHMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T21:39:41.39Z",
+              "WhenOpened": "2025-12-08T03:04:55.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormLogin.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormLogin.cs",
+              "RelativeToolTip": "GoEats\\FormLogin.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAswGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T03:08:39.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Sesion.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\Sesion.cs",
+              "RelativeDocumentMoniker": "GoEats\\Sesion.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\Sesion.cs",
+              "RelativeToolTip": "GoEats\\Sesion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T02:43:21.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormPerfil.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormPerfil.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormPerfil.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormPerfil.cs",
+              "RelativeToolTip": "GoEats\\FormPerfil.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowHgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T05:54:17.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "FormMenu.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\FormMenu.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormMenu.cs",
               "RelativeDocumentMoniker": "GoEats\\FormMenu.cs",
-              "ToolTip": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\FormMenu.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormMenu.cs [Dise\u00F1o]",
               "RelativeToolTip": "GoEats\\FormMenu.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T21:38:28.803Z",
@@ -154,63 +311,560 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormCarrito.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\FormCarrito.cs",
-              "RelativeDocumentMoniker": "GoEats\\FormCarrito.cs",
-              "ToolTip": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\FormCarrito.cs [Dise\u00F1o]",
-              "RelativeToolTip": "GoEats\\FormCarrito.cs [Dise\u00F1o]",
+              "DocumentIndex": 6,
+              "Title": "FormHome.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormHome.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormHome.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormHome.cs",
+              "RelativeToolTip": "GoEats\\FormHome.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T19:52:58.194Z"
+              "WhenOpened": "2025-12-08T05:28:48.965Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "FormMenu.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormMenu.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormMenu.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormMenu.cs",
+              "RelativeToolTip": "GoEats\\FormMenu.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAkwJcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T21:39:41.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormPerfil.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormPerfil.Designer.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormPerfil.Designer.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormPerfil.Designer.cs",
+              "RelativeToolTip": "GoEats\\FormPerfil.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T05:53:44.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormHome.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormHome.Designer.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormHome.Designer.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormHome.Designer.cs",
+              "RelativeToolTip": "GoEats\\FormHome.Designer.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAYwAUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T05:45:40.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormAdminRestaurantes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormAdminRestaurantes.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormAdminRestaurantes.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormAdminRestaurantes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GoEats\\FormAdminRestaurantes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T00:34:33.15Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DashboardAdmin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\DashboardAdmin.cs",
+              "RelativeDocumentMoniker": "GoEats\\DashboardAdmin.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\DashboardAdmin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GoEats\\DashboardAdmin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T04:09:57.081Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormRegistro.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormRegistro.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormRegistro.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormRegistro.cs",
+              "RelativeToolTip": "GoEats\\FormRegistro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T19:53:25.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormHome.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormHome.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormHome.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormHome.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GoEats\\FormHome.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T00:35:37.989Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormRegistro.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormRegistro.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormRegistro.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormRegistro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GoEats\\FormRegistro.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T19:53:24.259Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormLogin.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GoEats\\FormLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T03:08:35.981Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FormCarrito.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormCarrito.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormCarrito.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormCarrito.cs",
+              "RelativeToolTip": "GoEats\\FormCarrito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T19:53:01.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FormCarrito.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormCarrito.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormCarrito.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormCarrito.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GoEats\\FormCarrito.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T19:52:58.194Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CardCarrito.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\CardCarrito.cs",
+              "RelativeDocumentMoniker": "GoEats\\CardCarrito.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\CardCarrito.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GoEats\\CardCarrito.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T21:50:51.894Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FormAdminRestaurantes.resx",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormAdminRestaurantes.resx",
+              "RelativeDocumentMoniker": "GoEats\\FormAdminRestaurantes.resx",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormAdminRestaurantes.resx",
+              "RelativeToolTip": "GoEats\\FormAdminRestaurantes.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-12-08T04:45:40.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FormMenuRestaurante.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormMenuRestaurante.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormMenuRestaurante.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormMenuRestaurante.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GoEats\\FormMenuRestaurante.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T04:50:42.279Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FormMenuRestaurante.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormMenuRestaurante.Designer.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormMenuRestaurante.Designer.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormMenuRestaurante.Designer.cs",
+              "RelativeToolTip": "GoEats\\FormMenuRestaurante.Designer.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAwwKUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T04:56:55.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FormMenuRestaurante.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormMenuRestaurante.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormMenuRestaurante.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormMenuRestaurante.cs",
+              "RelativeToolTip": "GoEats\\FormMenuRestaurante.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwIMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T04:57:14.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FormMenuItemEditor.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormMenuItemEditor.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormMenuItemEditor.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormMenuItemEditor.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GoEats\\FormMenuItemEditor.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T04:57:56.84Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FormMenuItemEditor.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormMenuItemEditor.Designer.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormMenuItemEditor.Designer.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormMenuItemEditor.Designer.cs",
+              "RelativeToolTip": "GoEats\\FormMenuItemEditor.Designer.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAwwK4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T04:59:02.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CardPlato.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\CardPlato.cs",
+              "RelativeDocumentMoniker": "GoEats\\CardPlato.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\CardPlato.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GoEats\\CardPlato.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T05:07:24.939Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FormMenuItemEditor.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormMenuItemEditor.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormMenuItemEditor.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormMenuItemEditor.cs",
+              "RelativeToolTip": "GoEats\\FormMenuItemEditor.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAkwHwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T04:59:17.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FormPedidosAdmin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormPedidosAdmin.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormPedidosAdmin.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormPedidosAdmin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GoEats\\FormPedidosAdmin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T02:21:47.13Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FormAdminRestaurantes.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormAdminRestaurantes.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormAdminRestaurantes.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormAdminRestaurantes.cs",
+              "RelativeToolTip": "GoEats\\FormAdminRestaurantes.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAswJgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T00:45:22.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FormAdminRestaurantes.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormAdminRestaurantes.Designer.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormAdminRestaurantes.Designer.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormAdminRestaurantes.Designer.cs",
+              "RelativeToolTip": "GoEats\\FormAdminRestaurantes.Designer.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAwwMUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T00:35:01.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FormRestaurantEditor.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormRestaurantEditor.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormRestaurantEditor.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormRestaurantEditor.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GoEats\\FormRestaurantEditor.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T00:38:13.319Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FormPedidosAdmin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormPedidosAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormPedidosAdmin.Designer.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormPedidosAdmin.Designer.cs",
+              "RelativeToolTip": "GoEats\\FormPedidosAdmin.Designer.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwDwAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T04:14:49.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FormPedidoDetalles.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormPedidoDetalles.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormPedidoDetalles.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormPedidoDetalles.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GoEats\\FormPedidoDetalles.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T02:24:32.689Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "FormGestionUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormGestionUsuarios.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormGestionUsuarios.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormGestionUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GoEats\\FormGestionUsuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T02:05:48.311Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "FormGestionUsuarios.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormGestionUsuarios.Designer.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormGestionUsuarios.Designer.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormGestionUsuarios.Designer.cs",
+              "RelativeToolTip": "GoEats\\FormGestionUsuarios.Designer.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAwwLQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T04:24:09.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FormGestionUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormGestionUsuarios.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormGestionUsuarios.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormGestionUsuarios.cs",
+              "RelativeToolTip": "GoEats\\FormGestionUsuarios.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAuwGQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T04:22:58.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FormCarrito.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormCarrito.Designer.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormCarrito.Designer.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormCarrito.Designer.cs",
+              "RelativeToolTip": "GoEats\\FormCarrito.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:54:46.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "FormPedidosAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormPedidosAdmin.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormPedidosAdmin.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormPedidosAdmin.cs",
+              "RelativeToolTip": "GoEats\\FormPedidosAdmin.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwF4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T02:21:48.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DashboardAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\DashboardAdmin.cs",
+              "RelativeDocumentMoniker": "GoEats\\DashboardAdmin.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\DashboardAdmin.cs",
+              "RelativeToolTip": "GoEats\\DashboardAdmin.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T02:03:53.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "FormPedidoDetalles.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormPedidoDetalles.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormPedidoDetalles.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormPedidoDetalles.cs",
+              "RelativeToolTip": "GoEats\\FormPedidoDetalles.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAswJgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T02:25:00.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CardCarrito.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\CardCarrito.cs",
+              "RelativeDocumentMoniker": "GoEats\\CardCarrito.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\CardCarrito.cs",
+              "RelativeToolTip": "GoEats\\CardCarrito.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T21:50:57.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PedidoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\PedidoDAO.cs",
+              "RelativeDocumentMoniker": "GoEats\\PedidoDAO.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\PedidoDAO.cs",
+              "RelativeToolTip": "GoEats\\PedidoDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T03:38:59.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PedidoDetalleDAO.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\PedidoDetalleDAO.cs",
+              "RelativeDocumentMoniker": "GoEats\\PedidoDetalleDAO.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\PedidoDetalleDAO.cs",
+              "RelativeToolTip": "GoEats\\PedidoDetalleDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T03:40:00.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CardCarrito.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\CardCarrito.Designer.cs",
+              "RelativeDocumentMoniker": "GoEats\\CardCarrito.Designer.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\CardCarrito.Designer.cs",
+              "RelativeToolTip": "GoEats\\CardCarrito.Designer.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAkwJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:54:00.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "FormPedidoDetalles.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormPedidoDetalles.Designer.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormPedidoDetalles.Designer.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormPedidoDetalles.Designer.cs",
+              "RelativeToolTip": "GoEats\\FormPedidoDetalles.Designer.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAYwM4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T02:25:28.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
               "Title": "ConexionDB.cs",
-              "DocumentMoniker": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\ConexionDB.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\ConexionDB.cs",
               "RelativeDocumentMoniker": "GoEats\\ConexionDB.cs",
-              "ToolTip": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\ConexionDB.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\ConexionDB.cs",
               "RelativeToolTip": "GoEats\\ConexionDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T19:58:08.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 47,
+              "Title": "DashboardAdmin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\DashboardAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "GoEats\\DashboardAdmin.Designer.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\DashboardAdmin.Designer.cs",
+              "RelativeToolTip": "GoEats\\DashboardAdmin.Designer.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAYwNsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T01:59:00.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "FormRestaurantEditor.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormRestaurantEditor.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormRestaurantEditor.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormRestaurantEditor.cs",
+              "RelativeToolTip": "GoEats\\FormRestaurantEditor.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T00:38:48.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "FormRestaurantEditor.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormRestaurantEditor.Designer.cs",
+              "RelativeDocumentMoniker": "GoEats\\FormRestaurantEditor.Designer.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormRestaurantEditor.Designer.cs",
+              "RelativeToolTip": "GoEats\\FormRestaurantEditor.Designer.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAADwv7YAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T00:38:29.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
               "Title": "FormMenu.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\FormMenu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormMenu.Designer.cs",
               "RelativeDocumentMoniker": "GoEats\\FormMenu.Designer.cs",
-              "ToolTip": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\FormMenu.Designer.cs",
+              "ToolTip": "C:\\Users\\darkt\\OneDrive\\Documentos\\GitHub\\software4\\GoEats\\FormMenu.Designer.cs",
               "RelativeToolTip": "GoEats\\FormMenu.Designer.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAwwFAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T23:55:06.338Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FormRegistro.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\FormRegistro.cs",
-              "RelativeDocumentMoniker": "GoEats\\FormRegistro.cs",
-              "ToolTip": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\FormRegistro.cs [Dise\u00F1o]",
-              "RelativeToolTip": "GoEats\\FormRegistro.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T19:53:24.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FormRegistro.cs",
-              "DocumentMoniker": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\FormRegistro.cs",
-              "RelativeDocumentMoniker": "GoEats\\FormRegistro.cs",
-              "ToolTip": "C:\\Users\\usuario1\\Documents\\Alexander\\GitHub\\software4\\GoEats\\FormRegistro.cs",
-              "RelativeToolTip": "GoEats\\FormRegistro.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAswF8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T19:53:25.922Z"
             }
           ]
         }
